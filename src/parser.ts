@@ -4,7 +4,7 @@ import { tagsDecorationData } from "./TagDecoration";
 interface ITag {
   tag: string;
   decoration: vscode.TextEditorDecorationType;
-  ranges: vscode.DecorationOptions[];
+  ranges: vscode.DecorationOptions[]; //all instance of the tag will be catch here.
 }
 
 export class Parser {

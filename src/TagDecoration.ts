@@ -11,7 +11,7 @@ interface ITagDecoration {
 //Add any tags that you want to find in the text and change the style of them right after comment. (e.g: //todo  //tip)
 export const tagsDecorationData: ITagDecoration[] = [
   {
-    tag: "todo",
+    tag: "todo:",
     color: "#e1107e",
     strikethrough: false,
     underline: false,
@@ -35,6 +35,15 @@ export const tagsDecorationData: ITagDecoration[] = [
     underline: false,
     backgroundColor: "#4274fd",
     bold: false,
+    italic: true,
+  },
+  {
+    tag: "data",
+    color: "#00ff00",
+    strikethrough: false,
+    underline: true,
+    backgroundColor: "#4274fd",
+    bold: true,
     italic: true,
   },
 ];
